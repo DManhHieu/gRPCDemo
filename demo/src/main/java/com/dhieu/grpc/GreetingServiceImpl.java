@@ -11,8 +11,7 @@ public class GreetingServiceImpl extends  GreetingServiceGrpc.GreetingServiceImp
                 .build();
 
         responseObserver.onNext(response);
-        responseObserver.onNext(response);
-        responseObserver.onNext(response);
+
 
         responseObserver.onCompleted();
     }
